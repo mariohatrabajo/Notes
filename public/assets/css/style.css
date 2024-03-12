@@ -1,0 +1,100 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    /* Flex Box */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+ul {
+    width: 350px;
+    height: 95%;
+    box-sizing: border-box;
+    list-style: none;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+li {
+    min-height: 4rem;
+    width: 100%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+li a {
+    display: block;
+    width: 100%;
+    height: 4rem;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    height: 90vh;
+    /* Flex Box */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: center;
+}
+
+.workbench {
+    width: 100%;
+    height: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nota-form {
+    width: 100%;
+    height: 100%;
+}
+
+.form-row {
+    width: 100%;
+    /* Flex Box */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputTitulo {
+    width: 90%;
+    font-size: 1.5rem;
+}
+
+.inputGuardar {
+    width: 10%;
+}
+
+input {
+    height: 2rem;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    height: 95%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input, textarea {
+    outline: none;
+}
